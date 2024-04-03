@@ -15,7 +15,7 @@ const MultiSelectComponent = ({
 	setBlurred,
 }: FormComponentProps) => {
 	const [selectValues, setSelectedValues] = useState<
-		{ id: string; label: string; value: string }[]
+		{ id: number; label: string; value: string }[]
 	>(defaultValue.defaultArray);
 
 	useEffect(() => {
@@ -25,9 +25,9 @@ const MultiSelectComponent = ({
 	}, [isSend]);
 
 	const handleChange = (
-		selectedOption: MultiValue<{ id: string; label: string; value: string }>,
+		selectedOption: MultiValue<{ id: number; label: string; value: string }>,
 	) => {
-		setSelectedValues(selectedOption as { id: string; label: string; value: string }[]);
+		setSelectedValues(selectedOption as { id: number; label: string; value: string }[]);
 
 		if (selectedOption.length) {
 			setValidatedValues((initValue: FormProps) => {

@@ -6,12 +6,12 @@ import { SingleValue } from 'react-select';
 
 const SelectComponent = ({ isSend }: { isSend: boolean }) => {
 	const [selectValues, setSelectedValues] = useState<SingleValue<{
-		id: string;
+		id: number;
 		label: string;
 		value: string;
 	}> | null>(null);
 
-	const handleChange = (option: SingleValue<{ id: string; label: string; value: string }>) => {
+	const handleChange = (option: SingleValue<{ id: number; label: string; value: string }>) => {
 		console.log(option);
 		setSelectedValues(option);
 	};
