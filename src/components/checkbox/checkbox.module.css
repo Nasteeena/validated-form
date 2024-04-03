@@ -1,0 +1,14 @@
+.checkbox__container {
+	position: relative;
+	display: flex;
+}
+
+.checkbox_input {
+	background-color: red;
+	box-shadow: none;
+	flex-basis: content;
+}
+
+.label {
+	left: 26px;
+}

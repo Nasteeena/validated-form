@@ -1,0 +1,8 @@
+.select__container {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.label {
+	top: -19px;
+}

@@ -1,0 +1,15 @@
+.list {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	position: absolute;
+	top: 68px;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	z-index: 1;
+	overflow: auto;
+	max-height: 230px;
+}

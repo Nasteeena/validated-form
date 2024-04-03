@@ -1,0 +1,8 @@
+.list_el {
+	border: 1px solid var(--grey-color);
+	padding: 5px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

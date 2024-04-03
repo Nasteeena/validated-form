@@ -1,0 +1,24 @@
+.radio__container {
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.radio__container label {
+	position: static;
+}
+
+.gender_header {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.gender {
+	display: flex;
+	align-items: center;
+}
+
+.gender__content {
+	display: flex;
+	gap: 10px;
+}

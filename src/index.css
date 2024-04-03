@@ -1,0 +1,80 @@
+:root {
+	--background-color: #288fb4;
+	--grey-color: #9ea8bd;
+	--red-color: #ff0000;
+	--blue-color: #288fb4;
+	--blueHover-color: #1a7494;
+
+	--font-Roboto: 'Roboto', sans-serif;
+
+	--border-radius7: 7px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+}
+
+body {
+	background-color: var(--background-color);
+	margin: 0;
+	font-family: var(--font-Roboto);
+	font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	width: 100%;
+	padding: 25px 15px 20px;
+	border-radius: 7px;
+	border: none;
+	box-shadow: 0 4px 18px 0 rgba(158, 168, 189, 0.31);
+	font-size: 18px;
+}
+
+input::placeholder {
+	color: var(--grey-color);
+	font-size: 15px;
+}
+
+input[type='radio'] {
+	box-shadow: none;
+	padding: 0;
+	max-width: 300px;
+}
+
+label {
+	position: absolute;
+	font-size: 14px;
+	left: 12px;
+	top: 2px;
+}
+
+label span {
+	color: var(--red-color);
+}

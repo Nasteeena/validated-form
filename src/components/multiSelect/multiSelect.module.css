@@ -1,0 +1,16 @@
+.multi__container {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.label {
+	top: -19px;
+}
+
+.invalid {
+	border: 1px solid red;
+}
+
+.valid {
+	border: none;
+}

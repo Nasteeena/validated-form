@@ -1,0 +1,12 @@
+.name__container {
+	position: relative;
+	margin-bottom: 13px;
+}
+
+.invalid {
+	border: 1px solid var(--red-color);
+}
+
+.valid {
+	border: none;
+}

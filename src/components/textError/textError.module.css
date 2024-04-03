@@ -1,0 +1,6 @@
+.errorText {
+	color: red;
+	padding: 5px;
+	font-size: 13px;
+	position: absolute;
+}
